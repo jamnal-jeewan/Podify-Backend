@@ -1,0 +1,9 @@
+export const { MONGO_URI, MAILTRAP_USER, MAILTRAP_PASS, VERIFICATION_EMAIL, RESET_LINK, SIGN_IN_URL, JWT_SECRET } = process.env as {
+  MONGO_URI: string;
+  MAILTRAP_USER: string;
+  MAILTRAP_PASS: string;
+  VERIFICATION_EMAIL: string,
+  RESET_LINK:string,
+  SIGN_IN_URL: string
+  JWT_SECRET: string
+};
